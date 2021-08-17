@@ -20,7 +20,7 @@
 Feature: use of parameterization
   I want to use this template for my feature file
 
-  Scenario: Login into facebook from login page
+  Scenario Outline: Login into facebook from login page
     Given user is on the facebook login page
     When user logins into application with <email> and <password>
     Then face book app opens to home page
