@@ -17,7 +17,7 @@ public class Hooks {
 		System.out.println("Hook after running regression test");
 	}
 	
-	@Before("@RegressionTest")
+	@Before("@SanityTest")
 	public void beforeSanityValidation() {
 		
 		System.out.println("Hook before running Sanity test");
